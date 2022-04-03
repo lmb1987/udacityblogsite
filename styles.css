@@ -62,7 +62,6 @@ border: 2px solid yellow;
 }
 
 .nav-list{
-display: flex;
 align-items: start;
 width: flex;
 padding: 4px;
@@ -106,6 +105,10 @@ height: auto;
 padding: 4px;
 border: 1px solid pink;
 justify-content: stretch;
+}
+
+#content-header{
+display: flex;
 }
 
 #footer{
