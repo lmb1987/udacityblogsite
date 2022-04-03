@@ -1,27 +1,116 @@
-@import "index-css.css";
-@import "blogpost-css.css";
-@import "aboutme-css.css";
-
 body {
 background-color: #212121;
 }
 
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 8px;
+max-width: 60%;
+height: auto;
+padding: 4px;
+}
+
 a {
 color: #54A6F3;
+font-family: "Ariel", Arial, sans-serif;
 }
 
 a:hover {
 color: #257ACA;
+font-family: "Ariel", Arial, sans-serif;
 }
 
 a:active {
 color: #8661C2;
+font-family: "Ariel", Arial, sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
 color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
 }
 
 p {
 color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+.container{
+display: grid;
+width: flex;
+height: auto;
+padding: 4px;
+margin: auto;
+grid-template-columns: 240px auto auto;
+grid-template-rows: 64px auto 32px;
+grid-gap: 4px;
+grid-template-areas:
+"hd hd hd"
+"nav main main"
+"ft ft ft";
+justify-content: center;
+border: 2px solid yellow;
+}
+
+.nav-list{
+display: flex;
+align-items: start;
+width: flex;
+padding: 4px;
+font-size: 12px;
+border: 1px solid teal;
+justify-content: start;
+}
+
+#blog-img{
+display: block;
+max-width: 40%;
+height: auto;
+align-content: center;
+margin: auto;
+}
+
+#header{
+grid-area: hd;
+width: flex;
+height: flex;
+padding: 4px;
+border: 1px solid green;
+justify-content: center;
+}
+
+#navigation{
+grid-area: nav;
+height: flex;
+width: flex;
+border: 1px solid orange;
+padding: 4px;
+justify-content: start;
+}
+
+#content{
+grid-area: main;
+width: flex;
+height: auto;
+padding: 4px;
+border: 1px solid pink;
+justify-content: stretch;
+}
+
+#footer{
+grid-area: ft;
+padding: 4px;
+width: flex;
+height: flex;
+border: 1px solid red;
+justify-content: center;
 }
