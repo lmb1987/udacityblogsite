@@ -1,0 +1,27 @@
+@import "index-css.css";
+@import "blogpost-css.css";
+@import "aboutme-css.css";
+
+body {
+background-color: #212121;
+}
+
+a {
+color: #54A6F3;
+}
+
+a:hover {
+color: #257ACA;
+}
+
+a:active {
+color: #8661C2;
+}
+
+h1 {
+color: #fff;
+}
+
+p {
+color: #fff;
+}
