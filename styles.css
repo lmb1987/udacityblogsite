@@ -80,6 +80,8 @@ margin: auto;
 }
 
 #header{
+display: flex;
+background-color: #333333;
 grid-area: hd;
 width: flex;
 height: flex;
@@ -107,10 +109,13 @@ justify-content: stretch;
 }
 
 #footer{
+display: flex;
+background-color: #333333;
+font-weight: bold;
 grid-area: ft;
 padding: 4px;
 width: flex;
 height: flex;
 border: 1px solid red;
-justify-content: center;
+align-content: center;
 }
