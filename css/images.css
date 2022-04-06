@@ -1,0 +1,17 @@
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 8px;
+max-width: 60%;
+height: auto;
+padding: 4px;
+}
+
+#blog-img{
+display: block;
+max-width: 40%;
+height: auto;
+align-content: center;
+margin: auto;
+}

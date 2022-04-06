@@ -1,0 +1,48 @@
+a {
+color: #54A6F3;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+a:hover {
+color: #257ACA;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+a:active {
+color: #8661C2;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+h1{
+color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+h2{
+color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
+text-decoration: underline;
+}
+
+h3{
+color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
+font-weight: bold;
+}
+
+h4{
+color: #fff;
+margin: auto;
+font-family: "Ariel", Arial, sans-serif;
+font-style: italic;
+}
+
+p {
+color: #fff;
+margin: auto;
+font-size: 14px;
+font-family: "Ariel", Arial, sans-serif;
+}
