@@ -50,3 +50,38 @@ display: flex;
 justify-content: center;
 margin: 8px 0 0 0;
 }
+
+figcaption {
+color: #fff;
+font-style: italic;
+padding: 2px;
+text-align: center;
+font-size: 12px;
+font-family: "Ariel", Arial, sans-serif;
+}
+
+.author-name{
+font-weight: bold;
+}
+
+.author-bio{
+font-style: italic;
+}
+
+.author-info{
+display: inline-block;
+vertical-align: middle;
+padding: 9px;
+}
+
+.author-block{
+vertical-align: middle;
+margin: 8px 0 8px 0;
+}
+
+.avatar {
+vertical-align: middle;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
