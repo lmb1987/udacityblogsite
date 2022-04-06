@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <title>About Me</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-    <link href="./css/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 <div class="container">
-    <div id="header"><h1>Lee Bierman's Udacity Blog</h1></div>
-    <div id="navigation">
+    <div class="header">
+        <h1>Lee Does Design</h1>
+    </div>
+    <div class="navigation">
         <ul>
-        <li><div class="nav-list" id="nav-current"><p>Home</p></div></li>
-        <li><div class="nav-list"><p><a href="blogpost1.html">The Value of Design Systems</a></p></div></li>
-        <li><div class="nav-list"><p><a href="blogpost2.html">Do You Speak Dev?</a></p></div></li>
-        <li><div class="nav-list"><p><a href="aboutme.html">About Me</a></p></div></li>
+            <li>
+                <div class="nav-list" id="nav-current">
+                    <p>Home</p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="blogpost1.html">The Value of Design Systems</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="blogpost2.html">Do You Speak Dev?</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="aboutme.html">About Me</a></p>
+                </div>
+            </li>
         </ul>
     </div>
-    <div id="content">
-        <div id="content-header"><h2>Welcome to Lee Bierman's Udacity Blog Site!</h2></div></br>
-            <p>This webpage is an exercise in HTML and CSS for Udacity's Front End Web Developer Nanodegree Program.</p>
+    <div class="content">
+        <h2>Welcome to Lee's Udacity Blog Site!</h2>
         </br>
-        <div id="homepic"><img src="img/HomePageBW.png" alt="Lee!"></div></br>
+        <p>This webpage is an exercise in HTML and CSS for Udacity's Front End Web Developer Nanodegree Program.</p>
+        </br>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img" src="img/design-system.jpeg" alt="The Value of Design Systems">
+                <div class="card-text">
+                    <h3>The Value of Design Systems</h3>
+                    </br>
+                    <p>An essay about how design systems save product teams time, money, and effort.</p>
+                </div>
+                <div class="button-wrapper">
+                <button onclick="window.location.href="blogpost1.html";>Read This Post</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/speak-dev.jpeg" alt="Do You Speak Dev?">
+                <div class="card-text">
+                    <h3>Do You Speak Dev?</h3>
+                    </br>
+                    <p>An essay about forging better developer-designer relationships by learning to speak a common language.</p>
+                </div>
+                <div class="button-wrapper">
+                <a href="blogpost2.html"><button>Read This Post</button></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="footer"><p>Thank you for visiting!</p>
+    <div class="footer">
+        <p>Thank you for visiting!</p>
     </div>
 </div>
 </body>

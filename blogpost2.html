@@ -8,33 +8,66 @@
 </head>
 <body>
 <div class="container">
-    <div id="header"><h1>Lee Bierman's Udacity Blog</h1></div>
-    <div id="navigation">
+    <div class="header">
+        <h1>Lee Does Design</h1>
+    </div>
+    <div class="navigation">
         <ul>
-            <li><div class="nav-list"><p><a href="index.html">Home</a></p></div></li>
-            <li><div class="nav-list"><p><a href="blogpost1.html">The Value of Design Systems</a></p></div></li>
-            <li><div class="nav-list" id="nav-current"><p>Do You Speak Dev?</p></div></li>
-            <li><div class="nav-list"><p><a href="aboutme.html">About Me</a></p></div></li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="index.html">Home</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="blogpost1.html">The Value of Design Systems</a></p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list" id="nav-current">
+                    <p>Do You Speak Dev?</p>
+                </div>
+            </li>
+            <li>
+                <div class="nav-list">
+                    <p><a href="aboutme.html">About Me</a></p>
+                </div>
+            </li>
         </ul>
     </div>
-    <div id="content">
-        <div id="content-header"><h2>Do You Speak Dev?</h2></div></br>
-            <p>When a new feature is designed and stories are written good product teams spend time during their planning meetings discussing the goals of the feature and the value it adds to users. The product manager should frame the acceptance criteria for stories in a way that ensures that the value is met and developers should gauge complexity in terms of meeting the acceptance criteria. What often happens, however, is that the communication between development and design starts in this planning meeting then stops until a design review takes place. There are two unavoidable byproducts of this: design debt and lower velocity.</p></br>
-        <img id="blog-img" src="img/speak-dev.jpeg" alt="Do you Speak Dev?">
-        <h3>Eliminating Debt and Increasing Velocity</h3></br>
-        <p>At the innovation center where I work iteration is the key to success. Getting something in the hands of users and iterating on it quickly means we’re constantly delivering value. But often when the solution goes from design to implementation corners get cut and design debt is created. In the process of rapid iteration the divide between design and implementation inevitably grows the debt begins to snowball. Before you know it a product team needs to dedicate time just to cutting down the debt. Sometimes debt is unavoidable, but if designers learned to speak more like developers and developers learned to speak more like designers a lot of these issues could be nipped in the bud.</p></br>
-        <p>In my role as the Design System Lead at my organization one of my biggest goals is bridging this communication gap. From a design system perspective, giving designers a clear understanding of what is and isn’t possible using the design system’s tools is an imperative. Documentation that’s tailored toward this allows designers to understand what they’re asking of their developers. Speaking to developers in terms of properties that need to be applied to the components in their tool kit means designers and developers both understand how the team is trying to meet their goals. This doesn’t mean designers need to learn to read CSS (though I would argue it’s a good idea), but it does mean designers should understand exactly what they’re asking of their developers.</p></br>
-        <p>The earlier and more often this conversation happens in the development process the better. If that planning meeting is the first time you’re presenting a new and foreign concept to developers, you’re doing it wrong. When a designer begins working on a new feature the developers can and should be leaned on for a better understanding of the implementation ask. After the developers pick up a story the designer should be leaned on to discuss where corners can be cut to more efficiently meet the acceptance criteria. If both disciplines are on the same page regarding the goals of a story and the bounds of the tool set they will save everyone a lot of headaches.</p></br>
-        <p>This is a two-way street. Developers should look at wireframes and prototypes as representations of the route their designer is taking to meet a certain goal, not as pixel-perfect replicas set in stone. If a developer has a clear understanding of the goal and knows there are better tools to meet it they should not hesitate to bring that to the designer. If a designer is so set on UI decisions they aren’t willing to have this conversation, I would argue they’ve lost sight of their role on a balanced team. When the goal is to iterate quickly and deliver value continuously why make the developers work any harder than necessary to get that next iteration out the door?</p></br>
-        <h3>Teaching the Design System to Product Developers</h3></br>
-        <p>My company needs its developers and designers to better understand their role in this process. There are too many developers that still view designs as carved in granite and see their velocity tank as they toil away at overrides and custom components aimed at meeting those immutable designs. There are too many designers that believe their designs are the best, and dare I say only, path toward achieving a goal. Instead of collaborating on solutions and finding the right path forward too many product teams forget all about the balanced team dynamic the moment new features need to be implemented.</p></br>
-        <p>A few months ago I proposed an experiment to a few portfolios: Let the design system team bring in a developer or two from a couple product teams for six weeks. When they return to their teams they’ll be in-house subject matter experts in front end development and best practices, as well as the design system. If they spend some time with us they’ll be better equipped to discuss the right path forward with their designers and to handle the complexity of our system’s components. Unfortunately in a world where every delivery is critical and deadlines are tight there was understandable hesitation at the prospect of losing developer power for any length of time.</p></br>
-        <p>It took a lot of convincing to get this effort off the ground. When we did, word got out that we were offering a program to teach developers more about the design system and interest spread like wildfire. Soon program managers were asking me if there was any room to take on additional devs. We had to come up with a concrete plan for how to cycle people in and out of the program. The reality of the situation was that while we were thrilled to teach developers willing to learn there was still a lot of work to do and deliverables to meet. How were we going to balance maintaining the design system, delivering user requests, and troubleshooting product teams’ issues while also teaching visiting developers?</p></br>
-        <p>We settled on an “every three weeks” cadence with a second set of developers joining three weeks after the first. While the program itself had a loose structure without a mandatory curriculum, our goal was to use the time we had to ensure that when developers left us they were better equipped to have those conversations with their team that would enable increased velocity. The visiting developers would spend the first 1-2 weeks context building on the design system, “handcuffed” and unable to carry or solo until everyone felt they were ready to contribute. After the handcuffs were taken off, usually around the end of the second week, they were treated as any other member of team and expected to pick up and carry stories that would hit on what they wanted to learn while keeping in mind the priorities of the backlog.</p></br>
-        <p>The beginning of week four meant the arrival of two new developers and now the roles were reversed. Students would become teachers while these new engagement members were spun up on front end best practices and the design system. A dry run for when the developers would return to their teams a few weeks later. By the time the final week of the engagement rolled around everyone on the team was on the same page and working together as a unit. When the devs rolled off the project and returned to their product teams they were better equipped and more confident in their ability to do front end development. More importantly, they were more confident in their ability to have the right conversations with their designer.</p></br>
-        <p>We’re only a few months into the engagements and the results of this program remain to be seen. At the end of the day it is up to the designers and developers to work as a team to find the right solutions for their users. Part of my job is equipping both sides with the tools to do it.</p></br>
+    <div class="content">
+        <h2>Do You Speak Dev?</h2>
+        </br>
+        <p>When a new feature is designed and stories are written good product teams spend time during their planning meetings discussing the goals of the feature and the value it adds to users. The product manager should frame the acceptance criteria for stories in a way that ensures that the value is met and developers should gauge complexity in terms of meeting the acceptance criteria. What often happens, however, is that the communication between development and design starts in this planning meeting then stops until a design review takes place. There are two unavoidable byproducts of this: design debt and lower velocity.</p>
+        </br>
+        <img class="blog-img" src="img/speak-dev.jpeg" alt="Do you Speak Dev?">
+        <h3>Eliminating Debt and Increasing Velocity</h3>
+        </br>
+        <p>At the innovation center where I work iteration is the key to success. Getting something in the hands of users and iterating on it quickly means we’re constantly delivering value. But often when the solution goes from design to implementation corners get cut and design debt is created. In the process of rapid iteration the divide between design and implementation inevitably grows the debt begins to snowball. Before you know it a product team needs to dedicate time just to cutting down the debt. Sometimes debt is unavoidable, but if designers learned to speak more like developers and developers learned to speak more like designers a lot of these issues could be nipped in the bud.</p>
+        </br>
+        <p>In my role as the Design System Lead at my organization one of my biggest goals is bridging this communication gap. From a design system perspective, giving designers a clear understanding of what is and isn’t possible using the design system’s tools is an imperative. Documentation that’s tailored toward this allows designers to understand what they’re asking of their developers. Speaking to developers in terms of properties that need to be applied to the components in their tool kit means designers and developers both understand how the team is trying to meet their goals. This doesn’t mean designers need to learn to read CSS (though I would argue it’s a good idea), but it does mean designers should understand exactly what they’re asking of their developers.</p>
+        </br>
+        <p>The earlier and more often this conversation happens in the development process the better. If that planning meeting is the first time you’re presenting a new and foreign concept to developers, you’re doing it wrong. When a designer begins working on a new feature the developers can and should be leaned on for a better understanding of the implementation ask. After the developers pick up a story the designer should be leaned on to discuss where corners can be cut to more efficiently meet the acceptance criteria. If both disciplines are on the same page regarding the goals of a story and the bounds of the tool set they will save everyone a lot of headaches.</p>
+        </br>
+        <p>This is a two-way street. Developers should look at wireframes and prototypes as representations of the route their designer is taking to meet a certain goal, not as pixel-perfect replicas set in stone. If a developer has a clear understanding of the goal and knows there are better tools to meet it they should not hesitate to bring that to the designer. If a designer is so set on UI decisions they aren’t willing to have this conversation, I would argue they’ve lost sight of their role on a balanced team. When the goal is to iterate quickly and deliver value continuously why make the developers work any harder than necessary to get that next iteration out the door?</p>
+        </br>
+        <h3>Teaching the Design System to Product Developers</h3>
+        </br>
+        <p>My company needs its developers and designers to better understand their role in this process. There are too many developers that still view designs as carved in granite and see their velocity tank as they toil away at overrides and custom components aimed at meeting those immutable designs. There are too many designers that believe their designs are the best, and dare I say only, path toward achieving a goal. Instead of collaborating on solutions and finding the right path forward too many product teams forget all about the balanced team dynamic the moment new features need to be implemented.</p>
+        </br>
+        <p>A few months ago I proposed an experiment to a few portfolios: Let the design system team bring in a developer or two from a couple product teams for six weeks. When they return to their teams they’ll be in-house subject matter experts in front end development and best practices, as well as the design system. If they spend some time with us they’ll be better equipped to discuss the right path forward with their designers and to handle the complexity of our system’s components. Unfortunately in a world where every delivery is critical and deadlines are tight there was understandable hesitation at the prospect of losing developer power for any length of time.</p>
+        </br>
+        <p>It took a lot of convincing to get this effort off the ground. When we did, word got out that we were offering a program to teach developers more about the design system and interest spread like wildfire. Soon program managers were asking me if there was any room to take on additional devs. We had to come up with a concrete plan for how to cycle people in and out of the program. The reality of the situation was that while we were thrilled to teach developers willing to learn there was still a lot of work to do and deliverables to meet. How were we going to balance maintaining the design system, delivering user requests, and troubleshooting product teams’ issues while also teaching visiting developers?</p>
+        </br>
+        <p>We settled on an “every three weeks” cadence with a second set of developers joining three weeks after the first. While the program itself had a loose structure without a mandatory curriculum, our goal was to use the time we had to ensure that when developers left us they were better equipped to have those conversations with their team that would enable increased velocity. The visiting developers would spend the first 1-2 weeks context building on the design system, “handcuffed” and unable to carry or solo until everyone felt they were ready to contribute. After the handcuffs were taken off, usually around the end of the second week, they were treated as any other member of team and expected to pick up and carry stories that would hit on what they wanted to learn while keeping in mind the priorities of the backlog.</p>
+        </br>
+        <p>The beginning of week four meant the arrival of two new developers and now the roles were reversed. Students would become teachers while these new engagement members were spun up on front end best practices and the design system. A dry run for when the developers would return to their teams a few weeks later. By the time the final week of the engagement rolled around everyone on the team was on the same page and working together as a unit. When the devs rolled off the project and returned to their product teams they were better equipped and more confident in their ability to do front end development. More importantly, they were more confident in their ability to have the right conversations with their designer.</p>
+        </br>
+        <p>We’re only a few months into the engagements and the results of this program remain to be seen. At the end of the day it is up to the designers and developers to work as a team to find the right solutions for their users. Part of my job is equipping both sides with the tools to do it.</p>
+        </br>
     </div>
-    <div id="footer"><p>Thank you for visiting!</p>
+    <div class="footer">
+        <p>Thank you for visiting!</p>
     </div>
 </body>
 </html>
