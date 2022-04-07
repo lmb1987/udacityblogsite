@@ -2,7 +2,7 @@
 @import "typography.css";
 @import "images.css";
 
-@media (min-width: 801px) {
+@media (min-width: 470px) {
 .card-group{
 display: flex;
 flex-direction: row;
@@ -76,11 +76,13 @@ padding: 9px;
 }
 
 .title-block{
+display: flex;
 vertical-align: middle;
+flex-direction: column;
 }
 
 .title{
-display: inline-block;
+display: flex;
 vertical-align: middle;
 margin: 11px 0 11px 0;
 }
@@ -98,8 +100,8 @@ border-radius: 50%;
 }
 
 .social-icon {
-max-height: 50px;
-max-weight: 50px;
+max-height: 20px;
+max-weight: 20px;
 margin: 0 8px 0 8px;
 }
 
@@ -109,13 +111,15 @@ cursor: pointer;
 }
 
 .social-icon-group {
-display: inline-block;
-position: absolute;
-right: 0px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+margin-bottom: 8px;
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 469px) {
 .card-group {
 flex-direction: column;
 }
@@ -125,7 +129,7 @@ background-color: #333333;
 margin: 8px;
 z-index: 6;
 box-shadow: 4px 4px 2px;
-width: 100%;
+width: 90%;
 height: auto;
 border-radius: 8px;
 }
@@ -137,13 +141,24 @@ margin: 0 8px 0 8px;
 }
 
 .social-icon-group{
-margin: 8px 0 8px 0;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
+margin-bottom: 8px;
 }
 
 .title-block{
 flex-direction: column
 vertical-align: middle;
-margin: 32px 0 0 0;
+margin-top: 32px;
+display: flex;
+}
+
+.title{
+display: inline-block;
+vertical-align: middle;
+margin: 11px 0 11px 0;
 }
 
 .avatar {
@@ -205,7 +220,6 @@ padding: 4px;
 vertical-align: middle;
 margin: 8px 0 8px 0;
 }
-
 
 .title{
 display: inline-block;

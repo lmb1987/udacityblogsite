@@ -1,4 +1,4 @@
-@media (min-width: 801px) {
+@media (min-width: 470px) {
 .blog-img{
 display: block;
 margin-left: auto;
@@ -22,7 +22,7 @@ left: 0;
 }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 469px) {
 .blog-img{
 display: block;
 margin-left: auto;

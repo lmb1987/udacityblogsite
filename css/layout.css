@@ -5,7 +5,7 @@ margin: 0;
 
 .container{
 display: grid;
-width: 100%;
+width: flex;
 height: auto;
 min-height: 100vh;
 grid-template-columns: 1fr;
@@ -18,7 +18,7 @@ grid-template-areas:
 justify-content: center;
 }
 
-@media (min-height: 801px) {
+@media (min-width: 470px) {
 .header{
 display: flex;
 background-color: #333333;
@@ -46,7 +46,7 @@ left: 0;
 
 .content{
 grid-area: main;
-width: flex;
+width: 100%;
 height: auto;
 padding: 16px;
 justify-content: stretch;
@@ -74,7 +74,7 @@ font-family: "Ariel", Arial, sans-serif;
 }
 }
 
-@media (max-width: 800px){
+@media (max-width: 469px){
 .header{
 display: flex;
 background-color: #333333;
@@ -102,7 +102,7 @@ left: 0;
 
 .content{
 grid-area: main;
-width: flex;
+width: 100%;
 height: auto;
 padding: 16px;
 justify-content: stretch;
