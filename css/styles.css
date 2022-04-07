@@ -74,6 +74,16 @@ vertical-align: middle;
 padding: 9px;
 }
 
+.title-block{
+vertical-align: middle;
+}
+
+.title{
+display: inline-block;
+vertical-align: middle;
+margin: 11px 0 11px 0;
+}
+
 .author-block{
 vertical-align: middle;
 margin: 8px 0 8px 0;
