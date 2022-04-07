@@ -106,7 +106,6 @@ border-radius: 8px;
 .card-group{
 display: flex;
 flex-direction: row;
-width: 100%;
 height: auto;
 align-items: center;
 justify-content: center;
@@ -131,17 +130,14 @@ background-color: #333333;
 margin: 8px;
 z-index: 6;
 box-shadow: 4px 4px 2px;
-width: 90%;
 height: auto;
 border-radius: 8px;
 }
 
-}
 .card-group {
 display: flex;
 flex-direction: column;
-width: 90%;
-height: auto;
+padding: 32px;
 align-items: center;
 justify-content: center;
 }
