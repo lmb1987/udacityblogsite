@@ -44,12 +44,19 @@ box-shadow: none;
 cursor: pointer;
 }
 
+.button-wrapper{
+display: flex;
+justify-content: center;
+margin: 8px 0 16px 0;
+}
+
 .card:hover{
 box-shadow: 6px 6px 4px;
 }
 
 .card-text{
 padding: 8px;
+flex-grow: 1;
 }
 
 figcaption {
@@ -86,20 +93,16 @@ vertical-align: middle;
 margin: 11px 0 11px 0;
 }
 
-@media (min-width: 470px) {
-.button-wrapper{
-display: flex;
-justify-content: center;
-margin: 8px 0 0 0;
-}
-
+@media (min-width: 670px) {
 .card{
+display: flex;
+flex-direction: column;
 background-color: #333333;
 margin: 8px;
 z-index: 6;
 box-shadow: 4px 4px 2px;
+height: 500px;
 width: 400px;
-height: 400px;
 border-radius: 8px;
 }
 
@@ -110,22 +113,12 @@ height: auto;
 align-items: center;
 justify-content: center;
 }
-
-.title-block{
-display: flex;
-vertical-align: middle;
-flex-direction: column;
-}
 }
 
-@media (max-width: 469px) {
-.button-wrapper{
-display: flex;
-justify-content: center;
-margin: 4px 0 8px 0;
-}
-
+@media (max-width: 669px) {
 .card{
+display: flex;
+flex-direction: column;
 background-color: #333333;
 margin: 8px;
 z-index: 6;
@@ -141,7 +134,17 @@ padding: 32px;
 align-items: center;
 justify-content: center;
 }
+}
 
+@media (min-width: 470px) {
+.title-block{
+display: flex;
+vertical-align: middle;
+flex-direction: column;
+}
+}
+
+@media (max-width: 469px) {
 .title-block{
 flex-direction: column;
 vertical-align: middle;
