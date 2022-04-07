@@ -9,7 +9,7 @@ width: flex;
 height: auto;
 min-height: 100vh;
 grid-template-columns: 1fr;
-grid-template-rows: 64px 32px 1fr 32px;
+grid-template-rows: 64px auto 1fr 32px;
 grid-template-areas:
 "hd"
 "nav"
