@@ -57,9 +57,9 @@ padding: 8px;
 
 .nav-list{
 align-items: start;
-width: flex;
 padding: 8px;
 font-size: 14px;
+display: grid;
 justify-content: start;
 font-family: "Ariel", Arial, sans-serif;
 }
